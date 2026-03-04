@@ -1,0 +1,46 @@
+# ── Environnement & secrets ──────────────────────────
+.env
+*.env.local
+*.env.production
+
+# ── Logs (données sensibles) ──────────────────────────
+logs/
+*.log
+
+# ── Docker volumes (données persistantes) ─────────────
+mysql_data/
+prometheus_data/
+grafana_data/
+
+# ── Dépendances ───────────────────────────────────────
+vendor/
+node_modules/
+
+# ── Système d'exploitation ────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Éditeurs & IDEs ───────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ── PHP ───────────────────────────────────────────────
+*.phar
+
+# ── Données sensibles ─────────────────────────────────
+database/backups/
+
+# ── Documents personnels (non publics) ────────────────
+ENTRETIEN_PREP.md
+EXPLICATION_CODE.md
+
+# ── Dossier corrompu créé par erreur ──────────────────
+{public,src,docker/
